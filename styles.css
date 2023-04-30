@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+
+}
+
+body{
+    background-color: white;
+    height: 100%;
+}
+
+
+header{
+
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    /*background-color: goldenrod;*/
+    padding: 0 12px;
+
+}
+ 
+header .options{
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: white ;
+}
+
+header .options a{
+
+    text-decoration: none;
+    color: blue;
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+   /* background-color: goldenrod;*/
+}
+
+main .container figure{
+
+    height: 92px;
+}
+
+main .container figure img{
+
+    height: 100%;
+}
+
+main .container .searcher{
+    height: 40px;
+    width: 450px;
+    /*background-color: aqua;*/
+    padding: 8px;
+
+}
+main .container .searcher input{
+
+    width: 100%;
+}
+
+main .container .searcher-buttoms{
+
+    display: flex;
+    gap: 10px;
+}
+
+main .container .searcher-buttoms button{
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: whitesmoke;
+    
+    
+}
+
+main .container p {
+    color: blue;
+    font-size: small ;
+
+}
